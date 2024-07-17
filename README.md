@@ -26,4 +26,4 @@ git clone <https://github.com/amal2000-cse/NxtJobai-payment>
 - **views/index.ejs**: The EJS template for the checkout page.
 - **views/complete.ejs**: The EJS template for the payment completion page.
 
-![Transactions](https://imgur.com/a/sWm957r)
+![Transactions](https://i.imgur.com/OwkpG6W.png)
