@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NxtJob.AI Payment Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>NxtJob.AI Payment Assignment</h1>
+        <div class="product">
+            <h3>Node.js and Express book</h3>
+            <p>Price: $50.00</p>
+            <p>Quantity: 1</p>
+        </div>
+        <div class="product">
+            <h3>JavaScript T-Shirt</h3>
+            <p>Price: $20.00</p>
+            <p>Quantity: 2</p>
+        </div>
+        <form action="/checkout" method="post">
+            <button type="submit" class="btn">Proceed to Checkout</button>
+        </form>
+    </div>
+</body>
+
+</html>
